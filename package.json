@@ -4,7 +4,7 @@
   "description": "Course files for the MongoDB tutorials playlist on The Net Ninja YouTube channel.\r Each branch in this repository corresponds to the ending code of a particular video.",
   "main": "index.js",
   "directories": {
-    "test": "mocha"
+    "test": "test"
   },
   "dependencies": {
     "mongoose": "^4.13.17"
