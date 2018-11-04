@@ -17,8 +17,6 @@ before(function(done) {
 // Drop the characters collection before each test
 beforeEach(function() {
     // Drop the collection
-    mongoose.connection.collections.mariochars.drop(function(done) {
-        done();
-    });
-})
+    mongoose.connection.collections.mariochars.drop(console.log("dropped"));
+});
 
