@@ -6,7 +6,7 @@ describe('Finding records', function() {
 
     var char;
 
-    this.beforeEach(function(done) {
+    beforeEach(function(done) {
         char = new MarioChar({
             name: 'Mario'
         });
